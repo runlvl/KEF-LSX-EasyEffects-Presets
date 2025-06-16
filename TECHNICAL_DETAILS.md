@@ -36,7 +36,7 @@ Power Response: Generally well-controlled
 
 ## 🎛️ Preset Engineering
 
-### Runlvl (Balanced) - Technical Breakdown
+### KEF_LSX (Balanced) - Technical Breakdown
 
 **EQ Philosophy:** Natural enhancement with surgical corrections
 ```json
@@ -69,7 +69,7 @@ Frequency Bands:
    - Compensates for near-field imaging
    - Maintains mono compatibility
 
-### Runlvl_Cinema - Technical Breakdown
+### KEF_LSX_Cinema - Technical Breakdown
 
 **EQ Philosophy:** Cinematic V-curve with dynamic headroom
 ```json
@@ -133,13 +133,13 @@ Maintains phase coherence
 
 ### Headroom Calculation
 ```
-Runlvl Preset:
+KEF_LSX Preset:
 - Input: -5dB
 - Max Boost: +9dB (at 7kHz)
 - Theoretical Peak: +4dB
 - Safety Margin: Comfortable
 
-Runlvl_Cinema Preset:
+KEF_LSX_Cinema Preset:
 - Input: -15dB
 - Max Boost: +8dB (at 6.4kHz)
 - Limiter Threshold: -4.5dB
@@ -186,12 +186,12 @@ Enhanced bass/treble accounts for:
 
 ### Target Response Goals
 ```
-Runlvl (Reference):
+KEF_LSX (Reference):
 - Flat 200Hz-2kHz (±1dB)
 - Controlled bass extension
 - Smooth treble rise (+6dB/octave above 2kHz)
 
-Runlvl_Cinema (Entertainment):
+KEF_LSX_Cinema (Entertainment):
 - V-shaped response
 - Enhanced dynamics
 - Wide frequency bandwidth
@@ -230,8 +230,8 @@ Rationale:
 ### Computational Load
 ```
 Estimated CPU usage:
-- Runlvl: ~2-3% (modern CPU)
-- Runlvl_Cinema: ~3-4% (with limiter)
+- KEF_LSX: ~2-3% (modern CPU)
+- KEF_LSX_Cinema: ~3-4% (with limiter)
 - Memory: <50MB additional
 - Latency: <5ms additional
 ```

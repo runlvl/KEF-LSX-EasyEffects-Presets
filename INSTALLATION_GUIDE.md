@@ -47,8 +47,8 @@ mkdir -p ~/.config/easyeffects/output/
 2. **Download presets:**
 ```bash
 # Navigate to your preset directory first, then:
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/Runlvl.json
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/Runlvl_Cinema.json
+wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/KEF_LSX.json
+wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/KEF_LSX_Cinema.json
 ```
 
 ### Method B: Git Clone
@@ -139,7 +139,7 @@ Increase 3.5kHz gain by 0.5-1dB
 
 2. **Verify JSON syntax:**
    ```bash
-   python3 -m json.tool Runlvl.json
+   python3 -m json.tool KEF_LSX.json
    ```
 
 3. **Check file permissions:**
@@ -187,7 +187,7 @@ cp *.json ~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output/
 To remove the presets:
 ```bash
 # Navigate to your preset directory
-rm Runlvl.json Runlvl_Cinema.json
+rm KEF_LSX.json KEF_LSX_Cinema.json
 ```
 
 ## 📋 System Requirements

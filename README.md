@@ -1,10 +1,10 @@
-# KEF LSX EasyEffects Presets by Runlvl
+# KEF LSX EasyEffects Presets by KEF_LSX
 
 Premium-quality EasyEffects presets specifically tuned for **KEF LSX** wireless speakers, optimized for desktop/near-field listening environments.
 
 ## 🎵 Presets Overview
 
-### **Runlvl.json** - Daily Driver Excellence
+### **KEF_LSX.json** - Daily Driver Excellence
 Perfect for all-day listening with balanced, natural sound:
 - ✅ Controlled sub-bass extension (28Hz +8.5dB)
 - ✅ Punchy but clean bass (64Hz +9dB, 125Hz +6dB)
@@ -12,7 +12,7 @@ Perfect for all-day listening with balanced, natural sound:
 - ✅ Crystal-clear highs (3.5-14kHz optimized)
 - ✅ Natural stereo imaging (+15% stereo base)
 
-### **Runlvl_Cinema.json** - IMAX Experience
+### **KEF_LSX_Cinema.json** - IMAX Experience
 Calibrated for movies and cinematic content:
 - 🎬 Deep sub-bass impact (25Hz +3dB, 50Hz +3.5dB)
 - 🎬 Cinema V-curve with enhanced dynamics
@@ -47,7 +47,7 @@ Calibrated for movies and cinematic content:
 
 ## 🔧 Technical Details
 
-### Runlvl (Balanced)
+### KEF_LSX (Balanced)
 ```
 Sub-Bass (28Hz): +8.5dB, Q=0.9
 Bass (64Hz): +9.0dB, Q=1.1
@@ -62,7 +62,7 @@ Effects Chain:
 EQ → Bass Enhancer (+6.5dB) → Exciter (+7dB) → Stereo Tools
 ```
 
-### Runlvl_Cinema (Cinematic)
+### KEF_LSX_Cinema (Cinematic)
 ```
 Sub-Bass (25Hz): +3.0dB, Q=1.2
 Bass (50Hz): +3.5dB, Q=1.2
@@ -97,18 +97,18 @@ EQ → Bass Enhancer (+3dB) → Exciter (+9dB) → Stereo Tools → Limiter
 ```bash
 # For Flatpak users (most common):
 cd ~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output/
-wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/Runlvl.json
-wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/Runlvl_Cinema.json
+wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/KEF_LSX.json
+wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/KEF_LSX_Cinema.json
 
 # For system installation:
 cd ~/.config/easyeffects/output/
-wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/Runlvl.json
-wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/Runlvl_Cinema.json
+wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/KEF_LSX.json
+wget https://raw.githubusercontent.com/[YOUR-REPO]/KEF-LSX-Presets/main/KEF_LSX_Cinema.json
 ```
 
 ## 🎛️ Usage Recommendations
 
-### **Runlvl (Daily)**
+### **KEF_LSX (Daily)**
 Perfect for:
 - Music listening (all genres)
 - Video calls/meetings
@@ -116,7 +116,7 @@ Perfect for:
 - Podcast/audiobook listening
 - Gaming
 
-### **Runlvl_Cinema**
+### **KEF_LSX_Cinema**
 Ideal for:
 - Movies and TV shows
 - Gaming with cinematic audio
@@ -130,7 +130,7 @@ Ideal for:
 - **Too much bass?** Reduce gains at 28Hz/64Hz by 1-2dB
 - **Harsh highs?** Slightly reduce 7kHz/14kHz by 0.5-1dB
 - **Not enough presence?** Increase 3.5kHz by 0.5-1dB
-- **Too wide stereo?** Reduce stereo-base to 0.1 (Runlvl) or 0.2 (Cinema)
+- **Too wide stereo?** Reduce stereo-base to 0.1 (KEF_LSX) or 0.2 (Cinema)
 
 ### Volume considerations:
 - Both presets include input gain reduction for headroom
@@ -175,7 +175,7 @@ Use, modify, and share freely. Attribution appreciated but not required.
 
 ## 🙏 Credits
 
-**Created by:** Runlvl  
+**Created by:** KEF_LSX  
 **Developed with:** Claude Code AI Assistant  
 **Based on:** KEF LSX frequency response measurements from Stereophile  
 **Inspired by:** Cinema audio engineering principles and audiophile listening standards
@@ -183,6 +183,6 @@ Use, modify, and share freely. Attribution appreciated but not required.
 ---
 
 ### 💡 Pro Tip
-Start with **Runlvl** for daily use, switch to **Runlvl_Cinema** for movies. Both presets are designed to be used at your normal listening volume - no need to adjust gain settings unless you have specific room acoustic issues.
+Start with **KEF_LSX** for daily use, switch to **KEF_LSX_Cinema** for movies. Both presets are designed to be used at your normal listening volume - no need to adjust gain settings unless you have specific room acoustic issues.
 
 **Enjoy your transformed KEF LSX experience!** 🎵✨
