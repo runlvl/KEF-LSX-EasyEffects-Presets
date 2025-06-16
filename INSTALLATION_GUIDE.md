@@ -1,4 +1,6 @@
-# Installation Guide - KEF LSX EasyEffects Presets
+# Installation Guide - Professional EasyEffects Presets
+
+Complete setup guide for **KEF LSX speakers** and **AirPods Pro 2** presets.
 
 ## 🔍 Quick Start
 
@@ -47,15 +49,17 @@ mkdir -p ~/.config/easyeffects/output/
 2. **Download presets:**
 ```bash
 # Navigate to your preset directory first, then:
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/KEF_LSX.json
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets/main/KEF_LSX_Cinema.json
+wget https://raw.githubusercontent.com/runlvl/KEF-LSX-EasyEffects-Presets/main/KEF_LSX.json
+wget https://raw.githubusercontent.com/runlvl/KEF-LSX-EasyEffects-Presets/main/KEF_LSX_Cinema.json
+wget https://raw.githubusercontent.com/runlvl/KEF-LSX-EasyEffects-Presets/main/AirPods_Pro_2.json
+wget https://raw.githubusercontent.com/runlvl/KEF-LSX-EasyEffects-Presets/main/AirPods_Pro_2_Ultimate.json
 ```
 
 ### Method B: Git Clone
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/[YOUR-USERNAME]/KEF-LSX-EasyEffects-Presets.git
+git clone https://github.com/runlvl/KEF-LSX-EasyEffects-Presets.git
 cd KEF-LSX-EasyEffects-Presets
 ```
 
@@ -91,26 +95,38 @@ easyeffects
 1. Open EasyEffects
 2. Go to the "Output" tab
 3. Click the preset dropdown menu
-4. Select either "Runlvl" or "Runlvl_Cinema"
+4. Select your desired preset:
+   - **KEF_LSX** - For KEF LSX speakers (balanced)
+   - **KEF_LSX_Cinema** - For KEF LSX speakers (cinematic)
+   - **AirPods_Pro_2** - For AirPods Pro 2 (conservative)
+   - **AirPods_Pro_2_Ultimate** - For AirPods Pro 2 (maximum)
 
 ### 3. Verify Installation
-- You should see both presets in the dropdown
-- Audio should sound immediately different (more bass, clearer highs)
+- You should see all 4 presets in the dropdown
+- Audio should sound immediately different
 - No error messages should appear
 
 ## 🎯 Optimization for Your Setup
 
 ### Initial Settings Recommendations
 
-**For Desktop Setup:**
-- Use "Runlvl" preset as default
-- Switch to "Runlvl_Cinema" for movies
+**For KEF LSX Speakers:**
+- Use "KEF_LSX" preset as default for desktop listening
+- Switch to "KEF_LSX_Cinema" for movies and cinematic content
 - Keep EasyEffects running in background
+- Use hardware volume controls on KEF LSX when possible
+
+**For AirPods Pro 2:**
+- Start with "AirPods_Pro_2" for daily listening
+- Try "AirPods_Pro_2_Ultimate" for critical listening sessions
+- Turn OFF AirPods built-in EQ (set to "Off" in iOS)
+- Disable Adaptive EQ in AirPods Pro settings
+- Use Transparency mode or turn off ANC for best frequency response
 
 **Volume Levels:**
 - Set system volume to comfortable level first
 - Don't increase preset output gains unless necessary
-- Use hardware volume controls on KEF LSX when possible
+- Monitor for any distortion at high volumes
 
 ### Common Adjustments
 

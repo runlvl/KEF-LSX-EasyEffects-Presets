@@ -1,6 +1,6 @@
-# KEF LSX EasyEffects Presets by KEF_LSX
+# Professional EasyEffects Presets by Runlvl
 
-Premium-quality EasyEffects presets specifically tuned for **KEF LSX** wireless speakers, optimized for desktop/near-field listening environments.
+Premium-quality EasyEffects presets for **KEF LSX speakers** and **AirPods Pro 2**, scientifically engineered for exceptional audio quality.
 
 ## 🎵 Presets Overview
 
@@ -21,8 +21,27 @@ Calibrated for movies and cinematic content:
 - 🎬 Advanced limiting for distortion-free peaks
 - 🎬 Wider soundstage (+25% stereo base)
 
+### **AirPods_Pro_2.json** - Conservative Enhancement
+Refined optimization for daily listening:
+- 🎧 Gentle bass boost (32Hz +1.5dB, 64Hz +0.5dB)
+- 🎧 Smooth midrange correction (-1.5dB mud reduction)
+- 🎧 Enhanced clarity (2-4kHz +2.5-3dB)
+- 🎧 Crisp highs (8kHz +2dB, 16kHz +1dB)
+- 🎧 Conservative bass enhancement (amount: 2.5)
+- 🎧 Natural stereo imaging
+
+### **AirPods_Pro_2_Ultimate.json** - Maximum Performance
+Aggressive optimization for audiophile listening:
+- 🚀 Extended sub-bass (20Hz +1.5dB, 40Hz +1dB)
+- 🚀 Precise midrange sculpting (-2.5 to -3dB notch reduction)
+- 🚀 Brilliant upper midrange (1.3-2.6kHz +2-5dB)
+- 🚀 Sparkling highs (5-10kHz +4.5-6dB)
+- 🚀 Advanced 6-plugin chain with compression & limiting
+- 🚀 Enhanced stereo width (+10% stereo base)
+
 ## 🎯 Hardware Compatibility
 
+### KEF LSX Speakers
 **Primary Target:** KEF LSX (Original & LSX II)
 - Optimized for desktop placement
 - Corrects inherent LSX frequency response issues
@@ -33,8 +52,20 @@ Calibrated for movies and cinematic content:
 - Other small bookshelf speakers with similar characteristics
 - Coaxial driver designs
 
+### AirPods Pro 2
+**Target Device:** Apple AirPods Pro (2nd generation)
+- Corrects frequency response based on measurements
+- Optimizes for desktop/mobile listening
+- Works with any Bluetooth or wired connection to Linux
+
+**Compatibility:**
+- ✅ AirPods Pro 2 (2022 model)
+- ⚠️ May work with AirPods Pro 1st gen (not optimized)
+- ⚠️ Not recommended for regular AirPods or other earbuds
+
 ## 📍 Optimal Setup
 
+### KEF LSX Speakers
 **Positioning:**
 - Desktop placement at ear level
 - Behind/between computer monitors
@@ -44,6 +75,18 @@ Calibrated for movies and cinematic content:
 **Room Treatment:**
 - Hard surfaces (desk, wall reflections) accounted for
 - No additional room correction required
+
+### AirPods Pro 2
+**Connection:**
+- Bluetooth: Pair normally, ensure high-quality codec (AAC/aptX)
+- Wired: Use Lightning to 3.5mm adapter for best quality
+- USB-C: Direct connection to modern devices
+
+**Settings:**
+- Turn OFF AirPods' built-in EQ (use "Off" in iOS settings)
+- Disable Adaptive EQ in AirPods settings
+- Set Noise Control to "Transparency" or "Off" for critical listening
+- Use "AirPods_Pro_2.json" for daily use, "Ultimate" for audiophile sessions
 
 ## 🔧 Technical Details
 
@@ -76,6 +119,39 @@ Air (12.8kHz): +6.0dB, Q=0.8
 
 Effects Chain:
 EQ → Bass Enhancer (+3dB) → Exciter (+9dB) → Stereo Tools → Limiter
+```
+
+### AirPods_Pro_2 (Conservative)
+```
+Sub-Bass (32Hz): +1.5dB, Q=1.2
+Bass (64Hz): +0.5dB, Q=1.0
+Mid-Cut (125Hz): -1.0dB, Q=0.8
+Mud-Cut (250Hz): -1.5dB, Q=0.9
+Clarity (1kHz): +1.0dB, Q=0.8
+Presence (2kHz): +2.5dB, Q=0.9
+Brilliance (4kHz): +3.0dB, Q=0.8
+Detail (8kHz): +2.0dB, Q=1.0
+Air (16kHz): +1.0dB, Q=1.2
+
+Effects Chain:
+EQ (-2dB input) → Bass Enhancer (2.5) → Exciter (3.0) → Stereo Tools
+```
+
+### AirPods_Pro_2_Ultimate (Maximum Performance)
+```
+Deep Bass (20Hz): +1.5dB, Q=0.8
+Sub-Bass (40Hz): +1.0dB, Q=0.9
+Foundation (80Hz): +0.5dB, Q=1.0
+Upper-Bass Cut (160Hz): -2.5dB, Q=0.6
+Mid Cut (320Hz): -3.0dB, Q=0.7
+Lower-Mid Cut (640Hz): -1.5dB, Q=0.8
+Clarity (1.28kHz): +2.0dB, Q=0.7
+Presence (2.56kHz): +5.0dB, Q=0.6
+Brilliance (5.12kHz): +6.0dB, Q=0.7
+Detail (10.24kHz): +4.5dB, Q=0.8
+
+Effects Chain:
+EQ (-6dB input) → Compressor → Bass Enhancer (2.0) → Exciter (6.0) → Stereo Tools → Limiter (-3dB)
 ```
 
 ## 📥 Installation
