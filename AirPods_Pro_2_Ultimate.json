@@ -2,12 +2,12 @@
   "output": {
     "blocklist": [],
     "bass_enhancer": {
-      "amount": 4.5,
+      "amount": 2.0,
       "blend": 0.0,
       "bypass": false,
       "floor": 25.0,
       "floor-active": true,
-      "harmonics": 7.0,
+      "harmonics": 4.0,
       "input-gain": 0.0,
       "listen": false,
       "output-gain": 0.0,
@@ -40,11 +40,11 @@
       "wet": 1.0
     },
     "equalizer": {
-      "input-gain": -4.0,
+      "input-gain": -6.0,
       "left": {
         "band0": {
           "frequency": 20.0,
-          "gain": 3.0,
+          "gain": 1.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 0.8,
@@ -54,7 +54,7 @@
         },
         "band1": {
           "frequency": 40.0,
-          "gain": 2.5,
+          "gain": 0.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 0.9,
@@ -64,7 +64,7 @@
         },
         "band2": {
           "frequency": 80.0,
-          "gain": 1.0,
+          "gain": 0.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 1.0,
@@ -146,7 +146,7 @@
       "right": {
         "band0": {
           "frequency": 20.0,
-          "gain": 3.0,
+          "gain": 1.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 0.8,
@@ -156,7 +156,7 @@
         },
         "band1": {
           "frequency": 40.0,
-          "gain": 2.5,
+          "gain": 0.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 0.9,
@@ -166,7 +166,7 @@
         },
         "band2": {
           "frequency": 80.0,
-          "gain": 1.0,
+          "gain": 0.5,
           "mode": "RLC (BT)",
           "mute": false,
           "q": 1.0,
@@ -247,7 +247,7 @@
       },
       "mode": "IIR",
       "num-bands": 10,
-      "output-gain": 2.0,
+      "output-gain": 0.0,
       "split-channels": false
     },
     "exciter": {
@@ -280,7 +280,7 @@
       "release": 3.0,
       "sidechain-preamp": 0.0,
       "stereo-link": 100.0,
-      "threshold": -2.0
+      "threshold": -3.0
     },
     "stereo_tools": {
       "balance-in": 0.0,
